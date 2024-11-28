@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q5 Solution</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            border: 1px solid black;
+            justify-items: center;
+        }
+        .container > div{
+            padding: 20px;
+            background-color: #fbd9f6;
+            border: 1px solid #dc2727;
+            justify-self:center;
+        }
+        .para{
+            background-color: #c4f5f2;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <p class="para"> The main difference between them is that justify-items apply to grid containers and justify-self applies to grid items. </p>
+    <h4>Example</h4>
+    <div class="container">
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+        <div class="box3">Box 3</div>
+        <div class="box4">Box 4</div>
+        <div class="box5">B0x 5</div>
+        <div class="box6">B0x 6</div>
+    </div>
+</body>
+</html>
